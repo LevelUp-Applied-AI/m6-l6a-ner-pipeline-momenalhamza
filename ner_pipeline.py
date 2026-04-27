@@ -6,6 +6,7 @@ and Hugging Face on climate-related text data.
 
 Run: python ner_pipeline.py
 """
+import unicodedata
 
 import pandas as pd
 import numpy as np
@@ -22,8 +23,11 @@ def load_data(filepath="data/climate_articles.csv"):
     Returns:
         DataFrame with columns: id, text, source, language, category.
     """
-    # TODO: Load the CSV and return the DataFrame
-    pass
+    df = pd.read_csv(filepath)
+    print(df.head())
+    print(df.info())
+    return df
+
 
 
 def explore_data(df):
@@ -39,9 +43,24 @@ def explore_data(df):
           'category_counts': dict mapping category -> row count
           'text_length_stats': dict with 'mean', 'min', 'max' word counts
     """
-    # TODO: Compute shape, language/category value_counts, and word-count
-    #       statistics on df['text']
-    pass
+    shape = df.shape
+
+    lang_counts = df["language"].value_counts().to_dict()
+    category_counts = df["category"].value_counts().to_dict()
+
+    word_counts = df["text"].apply(lambda x: len(x.split()))
+    text_length_stats = {
+        "mean": word_counts.mean(),
+        "min": word_counts.min(),
+        "max": word_counts.max()
+    }
+
+    return {
+        "shape": shape,
+        "lang_counts": lang_counts,
+        "category_counts": category_counts,
+        "text_length_stats": text_length_stats
+    }
 
 
 def preprocess_text(text, nlp):
@@ -57,9 +76,20 @@ def preprocess_text(text, nlp):
     Returns:
         List of cleaned, lemmatized token strings.
     """
-    # TODO: NFC-normalize the text, run it through nlp(), drop
-    #       punctuation/whitespace tokens, return lowercased lemmas
-    pass
+
+    # 1. Normalize
+    text = unicodedata.normalize("NFC", text)
+
+
+    # 2. spaCy processing
+    doc = nlp(text)
+
+    tokens = []
+    for token in doc:
+        if not token.is_punct and not token.is_space:
+            tokens.append(token.lemma_.lower())
+
+    return tokens
 
 
 def extract_spacy_entities(df, nlp):
@@ -73,9 +103,23 @@ def extract_spacy_entities(df, nlp):
         DataFrame with columns: text_id, entity_text, entity_label,
         start_char, end_char.
     """
-    # TODO: Filter df to English rows, process each text with nlp,
-    #       collect entities into rows, return as a DataFrame
-    pass
+    df_en = df[df["language"] == "en"]
+
+    rows = []
+
+    for _, row in df_en.iterrows():
+        doc = nlp(row["text"])
+
+        for ent in doc.ents:
+            rows.append({
+                "text_id": row["id"],
+                "entity_text": ent.text,
+                "entity_label": ent.label_,
+                "start_char": ent.start_char,
+                "end_char": ent.end_char
+            })
+
+    return pd.DataFrame(rows)
 
 
 def extract_hf_entities(df, ner_pipeline):
@@ -91,10 +135,52 @@ def extract_hf_entities(df, ner_pipeline):
         DataFrame with columns: text_id, entity_text, entity_label,
         start_char, end_char.
     """
-    # TODO: Filter df to English rows, run each text through
-    #       ner_pipeline, merge ## subword tokens, strip B-/I- prefix
-    #       from labels (IOB format), return as a DataFrame
-    pass
+    df_en = df[df["language"] == "en"]
+
+    rows = []
+
+    for _, row in df_en.iterrows():
+        results = ner_pipeline(row["text"])
+
+        current_entity = ""
+        current_label = ""
+        start = None
+        end = None
+
+        for r in results:
+            word = r["word"]
+            label = r["entity"]
+
+            label = label.split("-")[-1]
+
+            if word.startswith("##"):
+                current_entity += word[2:]
+                end = r["end"]
+            else:
+                if current_entity:
+                    rows.append({
+                        "text_id": row["id"],
+                        "entity_text": current_entity,
+                        "entity_label": current_label,
+                        "start_char": start,
+                        "end_char": end
+                    })
+
+                current_entity = word
+                current_label = label
+                start = r["start"]
+                end = r["end"]
+
+        if current_entity:
+            rows.append({
+                "text_id": row["id"],
+                "entity_text": current_entity,
+                "entity_label": current_label,
+                "start_char": start,
+                "end_char": end
+            })
+
+    return pd.DataFrame(rows)
 
 
 def compare_ner_outputs(spacy_df, hf_df):
@@ -114,10 +200,28 @@ def compare_ner_outputs(spacy_df, hf_df):
           'spacy_only': set of (text_id, entity_text) tuples found only by spaCy
           'hf_only': set of (text_id, entity_text) tuples found only by HF
     """
-    # TODO: Count entities per label for each system, compute totals,
-    #       and derive the three overlap sets by matching on
-    #       (text_id, entity_text)
-    pass
+    spacy_counts = spacy_df["entity_label"].value_counts().to_dict()
+    hf_counts = hf_df["entity_label"].value_counts().to_dict()
+
+    total_spacy = len(spacy_df)
+    total_hf = len(hf_df)
+
+    spacy_set = set(zip(spacy_df["text_id"], spacy_df["entity_text"]))
+    hf_set = set(zip(hf_df["text_id"], hf_df["entity_text"]))
+
+    both = spacy_set & hf_set
+    spacy_only = spacy_set - hf_set
+    hf_only = hf_set - spacy_set
+
+    return {
+        "spacy_counts": spacy_counts,
+        "hf_counts": hf_counts,
+        "total_spacy": total_spacy,
+        "total_hf": total_hf,
+        "both": both,
+        "spacy_only": spacy_only,
+        "hf_only": hf_only
+    }
 
 
 def evaluate_ner(predicted_df, gold_df):
@@ -136,10 +240,30 @@ def evaluate_ner(predicted_df, gold_df):
     Returns:
         Dictionary with keys: 'precision', 'recall', 'f1' (floats 0-1).
     """
-    # TODO: Match predicted entities to gold entities by text_id +
-    #       entity_text + entity_label, compute precision/recall/F1
-    pass
+    pred_set = set(zip(
+        predicted_df["text_id"],
+        predicted_df["entity_text"],
+        predicted_df["entity_label"]
+    ))
 
+    gold_set = set(zip(
+        gold_df["text_id"],
+        gold_df["entity_text"],
+        gold_df["entity_label"]
+    ))
+
+    tp = len(pred_set & gold_set)
+
+    precision = tp / len(pred_set) if pred_set else 0
+    recall = tp / len(gold_set) if gold_set else 0
+
+    f1 = (2 * precision * recall) / (precision + recall) if (precision + recall) else 0
+
+    return {
+        "precision": precision,
+        "recall": recall,
+        "f1": f1
+    }
 
 if __name__ == "__main__":
     # Load spaCy and HF models once, reuse across functions

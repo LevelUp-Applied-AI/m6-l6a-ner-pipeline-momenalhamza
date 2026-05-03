@@ -1,0 +1,1100 @@
+text_id,entity_text,label
+1,IPCC,ORG
+1,Sixth Assessment Report,EVENT
+1,Antonio Guterres,PERSON
+1,COP,ORG
+2,COP28,EVENT
+2,Dubai,GPE
+2,The United Arab Emirates,GPE
+3,The World Bank,ORG
+3,$12.5 billion,MONEY
+3,Sub-Saharan Africa,ORG
+3,South Asia,LOC
+3,The fund,ORG
+3,World Bank,ORG
+3,Ajay Banga,PERSON
+4,Jordan,GPE
+4,National Climate Change Policy,ORG
+4,The Ministry of Environment,ORG
+4,UNDP,ORG
+4,the European Union,ORG
+5,UNFCCC,ORG
+5,Executive Secretary,PERSON
+5,Simon Stiell,PERSON
+5,the Bonn Climate Change Conference,ORG
+5,the Paris Agreement,EVENT
+6,The European Union's,ORG
+6,Carbon Border Adjustment Mechanism,ORG
+7,the United Nations General Assembly,ORG
+7,the Climate Ambition Summit,ORG
+7,New York,GPE
+7,the Paris Agreement,EVENT
+8,FAO,ORG
+8,State of Food and Agriculture 2023,ORG
+8,Qu Dongyu,PERSON
+8,$4 billion,MONEY
+9,The Green Climate Fund,ORG
+9,$1.2 billion,MONEY
+9,Songdo,GPE
+9,South Korea,GPE
+9,$150 million,MONEY
+9,Bangladesh,GPE
+9,$90 million,MONEY
+9,the Congo Basin,LOC
+9,$45 million,MONEY
+9,Jordan,GPE
+9,The fund,ORG
+9,$12 billion,MONEY
+10,China,GPE
+10,Special Envoy,PERSON
+10,Change Xie Zhenhua,PERSON
+10,Climate Envoy,PERSON
+10,John Kerry,PERSON
+10,Sunnylands,GPE
+10,California,GPE
+10,the Paris Agreement,EVENT
+10,COP28,EVENT
+11,NASA,ORG
+11,Goddard Institute for Space Studies,ORG
+11,El Nino,GPE
+11,Southern Europe,LOC
+11,North Africa,GPE
+11,the Middle East,LOC
+12,Science,GPE
+12,the Greenland Ice Sheet,ORG
+12,GRACE,ORG
+12,GRACE-FO,ORG
+13,Arctic,LOC
+13,the National Snow and Ice Data Center,ORG
+13,Boulder,GPE
+13,Colorado,GPE
+13,Arctic sea,LOC
+15,the Max Planck Institute for Meteorology,ORG
+15,the Atlantic Meridional Overturning Circulation,ORG
+15,AMOC,ORG
+15,the North Atlantic,LOC
+15,Northern Europe,LOC
+15,East Coast,LOC
+16,Atmospheric CO2,PERSON
+16,Hawaii,GPE
+16,NOAA,ORG
+17,the University of Leeds,ORG
+17,Geophysical Research Letters,ORG
+18,The World Meteorological Organization,ORG
+18,WMO,ORG
+18,Celeste Saulo,PERSON
+19,the National Academy of Sciences,ORG
+19,Siberia,LOC
+19,Alaska,GPE
+20,the Potsdam Institute for Climate Impact Research,ORG
+20,the Greenland Ice Sheet,ORG
+20,the West Antarctic Ice Sheet,LOC
+20,the Atlantic Meridional Overturning Circulation,ORG
+20,Science,GPE
+21,The European Space Agency's,ORG
+21,Copernicus Climate Change Service,ORG
+21,El Nino,GPE
+21,Saharan,GPE
+21,Antarctic sea,LOC
+21,Copernicus,ORG
+21,Carlo Buontempo,PERSON
+22,Annual Review of Marine Science,ORG
+22,the Southern Ocean,LOC
+22,Arctic,LOC
+23,The Dead Sea,LOC
+23,the Jordan River,LOC
+23,Jordan,GPE
+23,the West Bank,GPE
+24,Mediterranean,LOC
+24,Greece,GPE
+24,Turkey,GPE
+24,Algeria,GPE
+24,Tunisia,GPE
+24,Sicily,GPE
+24,an estimated $3.5 billion,MONEY
+25,Pacific Island,LOC
+25,Tuvalu,GPE
+25,Kiribati,GPE
+25,Marshall Islands,PERSON
+25,the Marshall Islands',GPE
+25,Tuvalu,ORG
+25,Australia,GPE
+26,Flash,PERSON
+26,Derna,GPE
+26,Libya,GPE
+26,Storm Daniel,ORG
+27,Jordan,GPE
+27,the Jordan Valley,LOC
+28,the African Union's Climate Research Centre,ORG
+28,Mediterranean,LOC
+28,Southern Europe,LOC
+28,Scandinavia,LOC
+29,Amman,GPE
+29,The Jordanian Department of Meteorology,ORG
+30,The IPCC Working Group II,ORG
+30,South Asia,LOC
+30,Sub-Saharan Africa,ORG
+31,Hurricane Otis,EVENT
+31,Acapulco,GPE
+31,Mexico,GPE
+31,Category 5,LAW
+31,the Eastern Pacific,LOC
+31,over $16 billion,MONEY
+32,Sahel,PERSON
+32,Africa,LOC
+32,Burkina Faso,GPE
+32,Mali,PERSON
+32,Niger,PERSON
+32,Chad,GPE
+32,The World Food Programme,ORG
+33,GLOF,ORG
+33,Sikkim,GPE
+33,India,GPE
+33,Teesta III,PERSON
+33,23 billion dollar,MONEY
+33,Kush Himalaya,PERSON
+34,$375 billion,MONEY
+34,Caribbean,LOC
+35,Jordan,GPE
+35,Disi Water Conveyance Project,ORG
+35,$990 million,MONEY
+35,Amman,GPE
+35,Aqaba,GPE
+36,The Kingdom of Jordan,GPE
+36,Mafraq,GPE
+36,Jordan,PERSON
+36,the European Bank for Reconstruction and Development,ORG
+37,Singapore,GPE
+37,$72 billion,MONEY
+37,The Tuas Nexus,ORG
+38,UNEP,ORG
+38,Adaptation Gap Report,ORG
+38,215,MONEY
+38,$387 billion,MONEY
+38,Only $21 billion,MONEY
+39,Netherlands,GPE
+39,River,LOC
+39,"the Rhine, Meuse",ORG
+39,Europe,LOC
+40,Kenya,GPE
+40,FAO,ORG
+40,the World Bank,ORG
+41,Bangladesh,GPE
+41,Cyclone Preparedness,PERSON
+41,Red Cross,ORG
+42,Abu Dhabi's,ORG
+42,Masdar City,GPE
+42,the International Renewable Energy Agency,ORG
+43,Amman,GPE
+43,Climate Action Plan,LAW
+43,C40 Cities,PERSON
+43,Climate Leadership,PERSON
+44,Israel,GPE
+44,Sorek B,PERSON
+44,0.40,MONEY
+45,Costa Rica,GPE
+45,Costa Rica's,GPE
+45,National Decarbonization Plan,ORG
+46,The African Development Bank's,ORG
+46,rural health clinics,ORG
+47,India,GPE
+47,Nationally Determined Contribution,ORG
+47,Prime Minister,PERSON
+47,Narendra Modi,PERSON
+47,COP26,EVENT
+47,Glasgow,GPE
+48,The Loss,PERSON
+48,Damage Fund,PERSON
+48,COP27,GPE
+48,Sharm el-Sheikh,GPE
+48,COP28,EVENT
+48,$792 million,MONEY
+48,Germany,GPE
+48,UAE,ORG
+48,$100 million,MONEY
+48,United Kingdom,GPE
+48,$75 million,MONEY
+48,the estimated $400 billion,MONEY
+49,Brazil,GPE
+49,Ministry of Environment and Climate Change,ORG
+49,Amazon,ORG
+49,Lula da Silva,PERSON
+49,IBAMA,ORG
+49,the Amazon Fund,ORG
+49,$500 million,MONEY
+49,Norway,GPE
+49,Germany,GPE
+50,The International Energy Agency's,ORG
+50,Net Zero,ORG
+50,$4 trillion,MONEY
+50,$1.3 trillion,MONEY
+50,IEA,ORG
+50,Executive Director,PERSON
+50,Fatih Birol,PERSON
+51,Saudi Arabia's,GPE
+51,Vision 2030,ORG
+51,$500 billion,MONEY
+51,Sudair,ORG
+51,Green Initiative,GPE
+51,Middle East Green Initiative,LOC
+52,The Kigali Amendment,LAW
+52,the Montreal Protocol,LAW
+52,UNEP,ORG
+52,the Kigali Amendment,LAW
+53,the Renewable Energy and Energy Efficiency Law,ORG
+53,$50 million,MONEY
+53,the Central Bank of Jordan,ORG
+54,Nature Communications,ORG
+54,Arctic,LOC
+55,The Global,PERSON
+55,Carbon Project,PERSON
+55,India,GPE
+55,China,GPE
+55,the European Union,ORG
+57,The British Antarctic Survey,ORG
+57,Antarctic sea,LOC
+57,Antarctic ice,LOC
+58,ETH Zurich,ORG
+58,the Northern Hemisphere,LOC
+58,The World Weather Attribution,ORG
+58,Southern Europe,LOC
+58,North Africa,GPE
+58,the Middle East,LOC
+58,Phoenix,GPE
+58,Arizona,GPE
+59,Pakistan,GPE
+59,over $30 billion,MONEY
+59,Karakoram,LOC
+59,Hindu Kush,PERSON
+59,The World Health Organization,ORG
+60,the United States,GPE
+60,$92.9 billion,MONEY
+60,NOAA,ORG
+60,billion-dollar,MONEY
+60,Hawaii,GPE
+60,Lahaina,GPE
+61,The World Health Organization,ORG
+61,The Lancet Countdown on Health and Climate Change,ORG
+61,the Middle East,LOC
+61,South Asia,LOC
+62,East Africa,GPE
+62,Kenya,GPE
+62,Somalia,GPE
+62,Ethiopia,GPE
+63,Amman,GPE
+63,WHO,ORG
+63,The Ministry of Health,ORG
+64,the Internal Displacement Monitoring Centre,ORG
+64,The Middle East,LOC
+64,North Africa,GPE
+64,Libya,GPE
+64,Levant,GPE
+64,UNHCR,ORG
+64,Jordan,GPE
+64,Lebanon,GPE
+64,Turkey,GPE
+65,Morocco,GPE
+65,Noor-Ouarzazate,ORG
+65,$2.5 billion,MONEY
+65,Sahara,LOC
+65,Europe,LOC
+66,The Great,PERSON
+66,Green Wall,PERSON
+66,Sahara,LOC
+66,Sahel Initiative,PERSON
+66,Senegal,GPE
+66,Djibouti,GPE
+66,UNEP,ORG
+66,$19 billion,MONEY
+66,the One Planet Summit,ORG
+67,Denmark,GPE
+67,Kalundborg Symbiosis,ORG
+67,$28 million,MONEY
+68,Medina al-Munawwarah,GPE
+68,Saudi Arabia's,GPE
+68,$2 billion,MONEY
+69,Egypt,GPE
+69,National Adaptation Plan,ORG
+69,the Nile Delta,LOC
+69,$3.5 billion,MONEY
+69,the Agricultural Research Centre,ORG
+69,Delta,ORG
+70,Amman,GPE
+70,Riyadh,GPE
+70,Baghdad,GPE
+71,UNEP,ORG
+71,Emissions Gap Report,ORG
+71,the Paris Agreement,EVENT
+72,The Dead,PERSON
+72,Red Sea,PERSON
+72,Conveyance Project,PERSON
+72,Jordan,GPE
+72,Israel,GPE
+72,the Palestinian Authority,ORG
+72,Dead Sea,LOC
+72,$10 billion,MONEY
+72,the Red Sea,LOC
+72,Dead Sea,PERSON
+72,World Bank,ORG
+73,The Lancet Planetary Health,ORG
+73,the Middle East,LOC
+73,South Asia,LOC
+73,$2.4 trillion,MONEY
+73,Jordan,PERSON
+74,Antarctic,ORG
+74,the Montreal Protocol,ORG
+74,Antarctica,LOC
+74,NOAA,ORG
+74,NASA,ORG
+75,Mediterranean,LOC
+75,Jordan,GPE
+75,Al Tafila,PERSON
+76,The Intergovernmental Panel on Climate Change Special Report,ORG
+76,Marine,ORG
+77,the African Group of Negotiators,ORG
+77,$1.3 trillion,MONEY
+77,approximately $100 billion,MONEY
+77,Africa,LOC
+77,$50 billion,MONEY
+77,100,MONEY
+77,350 billion,MONEY
+78,Jordan,GPE
+78,Azraq,ORG
+78,UNHCR,ORG
+78,IKEA Foundation,ORG
+78,$5.5 million,MONEY
+79,المناخ,GPE
+79,من أن العالم,PERSON
+79,وأكد التقرير أن,PERSON
+80,لتمويل,ORG
+80,التكيف,GPE
+80,المناخ,GPE
+80,تشمل المشاريع تحسين كفاءة,ORG
+80,المبكر للفيضانات,PERSON
+80,وأكد وزير البيئة,PERSON
+80,الأردني أن هذه الاستثمارات ضرورية,PERSON
+80,لحماية الأمن المائي والغذائي للمملكة,ORG
+81,الدول على التحول,PERSON
+81,الدول النامية,PERSON
+81,الأضرار المناخية التي,ORG
+82,على الإنتاج الزراعي,PERSON
+82,ودعت المنظمة,PERSON
+82,لتحويل النظم الغذائية,PERSON
+83,اعتمدت,GPE
+83,امتصاص الكربون وتوفير,PERSON
+84,أطلق الاتحاد الأوروبي,PERSON
+84,والإسمنت,PERSON
+84,الآلية,PERSON
+84,منع,ORG
+84,الأوروبيين والمستوردين من دول,PERSON
+85,على قانون,PERSON
+85,المباني التجارية,ORG
+85,ينشئ,ORG
+85,المركزي الأردني,PERSON
+86,التابع,PERSON
+86,الأكثر حرارة,ORG
+86,على الإطلاق,PERSON
+86,متوسط درجات,PERSON
+86,وساهمت ظاهرة,PERSON
+86,اتجاهات الاحترار عبر جنوب,ORG
+86,وشمال أفريقيا,PERSON
+86,والشرق الأوسط,ORG
+87,كشفت دراسة,PERSON
+87,ويساهم,PERSON
+87,ارتفاع,ORG
+88,بلغ,ORG
+88,ثاني أكسيد الكربون,ORG
+88,الغلاف,ORG
+89,ابيضاض مرجاني,PERSON
+89,جماعي رابع,PERSON
+89,الحيد,GPE
+89,المرجاني,ORG
+89,وتجاوزت درجات,PERSON
+89,المياه المتوسط الموسمي,PERSON
+89,على,ORG
+90,أظهرت دراسة نشرها معهد,ORG
+90,الاستوائية،,PERSON
+91,العالمية,ORG
+91,الجوية ارتفاعاً,PERSON
+91,منذ بدء القياسات,ORG
+91,التمدد الحراري,ORG
+92,القمر الاصطناعي كوبرنيكوس أن سبتمبر,PERSON
+92,متوسط ما قبل,PERSON
+92,ظاهرة النينو وانخفاض,ORG
+92,غبار الصحراء الكبرى,PERSON
+93,قدّر,ORG
+93,أكسيد الكربون من,PERSON
+94,المناخ,GPE
+94,نهر الأردن للزراعة,ORG
+94,أكثر من 7000,ORG
+94,على طول الشاطئ المتراجع،,ORG
+95,شهدت عمّان,PERSON
+95,على الإطلاق,PERSON
+95,درجات الحرارة,PERSON
+95,الصيف ارتفع,ORG
+95,وزادت,PERSON
+96,المياه عالمياً، حيث,PERSON
+96,، وهو,PERSON
+96,الشح المطلق,PERSON
+96,ويهدد الجمع,PERSON
+96,الهطول وتزايد,PERSON
+96,وارتفاع درجات,PERSON
+96,الحرارة الإنتاج الزراعي,PERSON
+97,درنة بليبيا في سبتمبر,ORG
+97,آخرين عندما,PERSON
+97,، وهو,PERSON
+97,مليمتراً.,ORG
+98,حذّر,ORG
+98,المناخ,GPE
+98,خفض,ORG
+98,العالمية,ORG
+98,المتوقع أن ينخفض إنتاج,PERSON
+98,آسيا,GPE
+98,أفريقيا جنوب الصحراء,ORG
+99,ازدادت العواصف الرملية,PERSON
+99,الكبرى,PERSON
+99,وتحمل هذه العواصف,ORG
+99,الدول الإسكندنافية,PERSON
+100,دول جزر المحيط,ORG
+100,بما,ORG
+100,وجزر مارشال,PERSON
+100,سطح,PERSON
+100,الارتفاع الحالية,PERSON
+100,مساحة جزر مارشال,ORG
+100,الجزر,PERSON
+101,الصيفية,PERSON
+101,تركيز الجسيمات,PERSON
+102,حرائق الغابات,PERSON
+102,حوض البحر,ORG
+102,اليونان,ORG
+102,والجزائر وتونس,PERSON
+102,وتجاوزت درجات الحرارة,PERSON
+102,وأدت الحرائق,PERSON
+102,أكثر من,ORG
+103,افتتحت المملكة,GPE
+103,الأردنية,ORG
+103,الهاشمية,ORG
+103,مصادر متجددة,ORG
+103,الكهرباء,ORG
+104,أطلقت مدينة عمّان خطة,ORG
+104,خفض,ORG
+104,وتشمل المبادرات الرئيسية,ORG
+104,الذي,ORG
+104,الشمسية على الأسطح,PERSON
+105,من المياه,PERSON
+105,غير أن الخزان الجوفي,PERSON
+105,مائي أحفوري غير متجدد،,PERSON
+105,الاستخراج الحالية,PERSON
+105,وتستثمر الحكومة حالياً,PERSON
+106,مصادر متجددة في,ORG
+107,ويشمل البرنامج,PERSON
+108,أنشأ,GPE
+108,مخيم الأزرق للاجئين,PERSON
+108,مخيم للاجئين,PERSON
+108,العالم,ORG
+108,اللاجئين,PERSON
+108,وتمد سكان,PERSON
+108,المخيم البالغ,PERSON
+109,الذي,PERSON
+109,على طول,ORG
+109,الراين والموز وإيسل,PERSON
+110,مجمع نور ورزازات,ORG
+110,المغرب من أكبر المحطات,PERSON
+110,غروب الشمس,PERSON
+110,المغرب من ثاني أكسيد الكربون بمقدار,PERSON
+111,استثماراً,PERSON
+111,على مدى 100,PERSON
+111,التحتية لحماية السواحل,PERSON
+112,الوطنية المصرية الأولوية,PERSON
+112,المياه المالحة بسبب ارتفاع,ORG
+112,سطح,PERSON
+112,وتشمل,ORG
+112,استثماراً,PERSON
+113,السور الأخضر,PERSON
+113,كينيا أكثر,PERSON
+114,المنورة,GPE
+114,التبريد الحضري,PERSON
+114,خفض درجات,PERSON
+114,السطح,PERSON
+114,وتخصص المملكة العربية,PERSON
+114,ملياري,PERSON
+114,المدن,PERSON
+115,أول صيف خالٍ من,PERSON
+115,الآلي المدربة على 40 عاماً,PERSON
+116,بلغ,ORG
+116,الميثان,PERSON
+116,الغلاف,ORG
+116,ومن المتوقع أن,PERSON
+116,القمر الاصطناعي ميثان سات الذي أُطلق,PERSON
+116,انبعاثات الميثان من منشآت,PERSON
+116,والغاز الفردية حول العالم,PERSON
+117,الناجمة عن,PERSON
+117,الأضرار,ORG
+117,العراق وسوريا,PERSON
+117,والعواصف الرملية التي,ORG
+117,وحذر خبراء,PERSON
+118,المناخ,GPE
+118,على,ORG
+118,وانخفض هطول,PERSON
+119,المناخ,GPE
+119,الموافقة على,PERSON
+119,وتشمل,ORG
+120,أفاد المركز الوطني,PERSON
+120,ولاحظ,ORG
+121,أسهم برنامج,ORG
+121,ويضم البرنامج,PERSON
+121,على السواحل,PERSON
+121,التكلفة السنوية 12,PERSON
+122,أعلنت,GPE
+122,ومحطة سدير للطاقة,PERSON
+122,المملكة لخفض انبعاثاتها,PERSON
+122,السعودية الخضراء,ORG
+123,The United Nations Environment Programme,ORG
+123,UNEP,ORG
+124,The International Maritime Organization,ORG
+125,Nature Food,ORG
+126,The World Resources Institute,ORG
+126,Brazil,GPE
+126,the Democratic Republic of Congo,GPE
+126,Bolivia,GPE
+127,Jordan,GPE
+127,Ministry of Water and Irrigation,ORG
+127,the National Water Strategy,ORG
+127,the World Bank,ORG
+127,USAID,ORG
+127,KfW,ORG
+127,$1.8 billion,MONEY
+128,The Global,PERSON
+129,the Middle East,LOC
+129,Earth,LOC
+129,the Eastern Mediterranean,LOC
+129,The region,LOC
+130,The Asian Development Bank,ORG
+130,$100 billion,MONEY
+130,South,LOC
+130,Southeast Asia,LOC
+130,The bank,ORG
+130,$250 million,MONEY
+130,Pakistan,GPE
+130,$180 million,MONEY
+130,India,GPE
+131,the Tibetan Plateau,LOC
+131,Qinghai,GPE
+131,Tibet Railway,PERSON
+132,The European Investment Bank,ORG
+132,4.5 billion,MONEY
+132,the North Sea,LOC
+132,2 billion,MONEY
+132,Poland,GPE
+132,Spain,GPE
+132,The bank,ORG
+133,the Dead Sea,LOC
+133,the University of Jordan,ORG
+133,the Helmholtz Centre for Environmental Research,ORG
+133,The Dead Sea's,LOC
+134,Indonesia,GPE
+134,FAO,ORG
+134,the Asian Development Bank,ORG
+135,تكشف البيانات,PERSON
+135,وشمال أفريقيا,ORG
+135,وارتفعت درجات,PERSON
+135,وتحذر الدراسات من أن أجزاء من الخليج,PERSON
+135,غير صالحة للسكن البشري,ORG
+135,بحلول نهاية القرن,PERSON
+136,والتنمية عن تمويل,ORG
+136,وتشمل,ORG
+137,The Global Commission on Adaptation,ORG
+137,$1.8 trillion,MONEY
+137,$7.1 trillion,MONEY
+137,Ban Ki-moon,PERSON
+137,Bill Gates,PERSON
+138,the Alfred Wegener Institute,ORG
+138,Nature Climate Change,ORG
+138,Antarctic,LOC
+138,The Thwaites,PERSON
+138,the Doomsday Glacier,PERSON
+138,West Antarctic Ice Sheet,LOC
+139,The Jordan River,LOC
+139,less than 100 million cubic meters,MONEY
+139,Israel,GPE
+139,Jordan,GPE
+139,Syria,GPE
+139,Friends of the Earth Middle East,ORG
+140,Kenya,GPE
+140,Africa,LOC
+140,Olkaria,GPE
+140,the African Union,ORG
+140,the Japan International Cooperation Agency,ORG
+141,أظهرت دراسة أجراها,ORG
+141,باحثون من,PERSON
+141,حوض عمّان-الزرقاء,PERSON
+141,معدل التغذية,PERSON
+141,وحذّر الباحثون من أن,PERSON
+142,IPCC,ORG
+142,Working Group III,ORG
+143,the United Nations,ORG
+143,the International Year of Glaciers,EVENT
+143,Kush Himalayan,PERSON
+143,Third Pole,PERSON
+143,Asia,LOC
+144,Red Sea,LOC
+144,Science Advances,ORG
+144,Jordan,GPE
+144,Saudi Arabia,GPE
+145,المناخ,GPE
+145,الأربعة الأخيرة,PERSON
+145,وانخفض معدل الهطول الشتوي,PERSON
+145,جفافاً,ORG
+146,أطلقت الحكومة الأردنية,ORG
+146,الري بالغمر,PERSON
+146,من المياه,PERSON
+147,The World Glacier Monitoring Service,ORG
+147,The Aletsch Glacier,PERSON
+147,Alps,LOC
+148,the Jordan Valley,LOC
+148,FAO,ORG
+148,the Jordanian Ministry of Agriculture,ORG
+149,أصدرت الوكالة,PERSON
+149,الفترة من,ORG
+149,للكهرباء,PERSON
+149,وبلغت القدرة,PERSON
+149,العالمية,ORG
+149,المتحدة والهند قائمة أكبر المنتجين,PERSON
+150,دراسة دولية,PERSON
+150,وتشمل المدن الأكثر عرضة,PERSON
+150,للخطر جاكرتا وبانكوك,PERSON
+150,والإسكندرية وميامي,PERSON
+151,the International Court of Justice,ORG
+151,Vanuatu,PERSON
+152,Jordan,GPE
+152,Water Authority,PERSON
+152,the King Talal Dam reservoir,ORG
+153,أنشأت المملكة,GPE
+153,الهاشمية,ORG
+153,محمية الأزرق المائية،,PERSON
+153,الجمعية الملكية لحماية الطبيعة,PERSON
+153,على استعادة,PERSON
+153,النظام البيئي للواحة,ORG
+153,كانت,PERSON
+153,الضخ المفرط,PERSON
+154,The Global Adaptation Finance Tracker,ORG
+154,The Climate Justice Alliance,ORG
+154,Bangladesh,GPE
+154,Kenya,GPE
+154,Pacific Island,LOC
+155,the King Abdullah University of Science and Technology,ORG
+155,Saudi Arabia,GPE
+155,CRISPR,PERSON
+155,Tabuk,LOC
+155,the Middle East,LOC
+156,وتتركز المخاطر,PERSON
+156,أفريقيا جنوب الصحراء,ORG
+156,آسيا,PERSON
+156,ويوصي التقرير,PERSON
+156,التكيف المجتمعي للفئات الأكثر هشاشة,ORG
+157,The Global Biodiversity Framework Monitor,ORG
+157,The Mediterranean Sea,LOC
+158,Jordan,PERSON
+158,the European Space Agency,ORG
+158,the Jordan Valley,LOC
+158,$12 million,MONEY
+159,النتائج أن الأصناف,PERSON
+159,على,PERSON
+160,the Global CCS Institute,ORG
+160,Gorgon,ORG
+160,Western Australia,LOC
+160,CCS,GPE
+161,OECD,ORG
+161,$1.3 trillion,MONEY
+161,IMF,ORG
+161,$7 trillion,MONEY
+162,Earth,LOC
+162,$490 billion,MONEY
+162,The Sahara Desert,LOC
+162,Sahel,PERSON
+163,تشغل محطة نووية,PERSON
+163,السلمية,ORG
+163,وتوفر,ORG
+163,الكهرباء وتجنب انبعاث,ORG
+164,The Green,PERSON
+164,Bond Market,PERSON
+164,$2.2 trillion,MONEY
+164,$575 billion,MONEY
+164,The European Union,ORG
+164,China,GPE
+164,the United States,GPE
+164,Jordan,PERSON
+164,$250 million,MONEY
+164,The Climate,PERSON
+164,Bonds Initiative,PERSON
+166,العربي,GPE
+166,والتنمية تقريره,GPE
+166,المحلي الإجمالي,PERSON
+166,الهدر ويعظم,PERSON
+166,، خاصة,PERSON
+167,The Global Heat Health Information Network,ORG
+167,El Nino,ORG
+167,the Northern Hemisphere,LOC
+167,the Middle East,LOC
+167,South Asia,LOC
+167,Amman,GPE
+167,Riyadh,GPE
+167,Baghdad,GPE
+168,The Red Sea's,LOC
+168,Saudi Arabia,GPE
+168,Neom,GPE
+168,Mediterranean,LOC
+168,Spain,GPE
+168,Italy,GPE
+168,Greece,GPE
+169,خصصت الحكومة المصرية,ORG
+169,لمشروع تطوير شبكة,ORG
+169,سطح,PERSON
+170,the Paris Agreement,EVENT
+171,the Jordan Valley,LOC
+171,IoT,ORG
+171,GIZ,ORG
+171,the Jordanian Ministry of Agriculture,ORG
+172,المسلحة,GPE
+172,على موارد,ORG
+172,الإنمائي,GPE
+172,اللاجئين يزيدون,ORG
+172,الطلب على المياه,PERSON
+173,The International Renewable Energy Agency,ORG
+173,0.049,MONEY
+173,0.033,MONEY
+173,The Middle East,LOC
+173,North Africa,GPE
+174,Red Sea,LOC
+174,the University of Jordan,ORG
+174,the Aqaba Marine Science Station,ORG
+174,Indo-Pacific,ORG
+174,Mediterranean,LOC
+175,المؤتمر,GPE
+175,للمناخ,GPE
+175,إطلاق صندوق استثماري,ORG
+175,على,PERSON
+175,الإقليمي,PERSON
+176,NASA,ORG
+176,ESA,ORG
+176,GRACE-FO,ORG
+176,Sentinel,ORG
+176,the Middle East,LOC
+176,Jordan,GPE
+176,Saudi Arabia,GPE
+176,Iraq,GPE
+177,The International Labour Organization,ORG
+177,the Middle East,LOC
+177,Qatar,GPE
+177,UAE,GPE
+177,Saudi Arabia,GPE
+177,Jordan,GPE
+178,المنظمة العالمية,PERSON
+178,الجوية أن,PERSON
+178,التاريخ المسجل,PERSON
+178,، حيث,PERSON
+178,المتوسط,GPE
+178,بثلاثة أضعاف,PERSON
+179,The African Union's Agenda,ORG
+179,Africa,LOC
+180,The Royal Scientific Society,ORG
+180,rainwater harvesting,PERSON
+180,Amman,GPE
+180,Jordan,GPE
+181,المناخ,GPE
+181,الحرارة والرطوبة,PERSON
+181,وأوصت المنظمة,PERSON
+182,The Coral Triangle Initiative,ORG
+182,marine habitat,ORG
+182,The region,LOC
+183,the Hydrogen Council,ORG
+183,The Middle East's,LOC
+183,NEOM,ORG
+183,Saudi Arabia,GPE
+183,Europe,LOC
+183,Asia,LOC
+184,دراسة أعدها,PERSON
+184,المناخ,GPE
+184,على,ORG
+185,The United Nations Industrial Development Organization,ORG
+185,Jordan,PERSON
+185,Hussein Bin Talal,PERSON
+185,Development Area,PERSON
+186,المركز العربي,PERSON
+186,المناطق الجافة,ORG
+186,القاحلة أكد,PERSON
+186,وتقدر الخسائر,ORG
+186,الناجمة عن,PERSON
+187,India,GPE
+187,National Solar Mission,ORG
+187,The Bhadla Solar Park,ORG
+187,Rajasthan,GPE
+187,0.038,MONEY
+188,حيث أنشأ,PERSON
+188,للشعاب المرجانية والأسماك.,ORG
+188,المراقبة,ORG
+188,على,ORG
+189,The Climate,PERSON
+189,Action Tracker,PERSON
+189,the United States,GPE
+189,China,GPE
+189,Russia,GPE
+189,India,GPE
+189,G20,ORG
+190,COP26,EVENT
+190,Glasgow,GPE
+191,نهر الأردن,ORG
+191,أسرة ويساهم,PERSON
+191,مكافحة تآكل التربة,PERSON
+191,الكربون سنوياً. وتمول,PERSON
+191,الألمانية,GPE
+192,The World Economic Forum's,ORG
+192,Global Risks Report,ORG
+193,the European Space Agency's,ORG
+193,the Jordan Valley,LOC
+194,مباشر على الزراعة,PERSON
+194,ويتطلب التكيف,GPE
+194,التحتية المائية,PERSON
+195,The Blue Carbon Initiative,ORG
+196,المباني الجامعية باستخدام,PERSON
+197,The Intergovernmental Science-Policy Platform on Biodiversity and Ecosystem Services,ORG
+198,Dubai,GPE
+198,Sustainable City,GPE
+199,استراتيجية التكيف,PERSON
+199,المناخ,GPE
+199,وتشمل,PERSON
+199,الجاري تنفيذها,ORG
+199,الإنفاق على البحث,PERSON
+200,the Climate Policy Initiative,ORG
+200,$1.27 trillion,MONEY
+200,$8.1 trillion,MONEY
+1,March 2023,DATE
+1,2030,DATE
+2,2030,DATE
+3,June 2024,DATE
+4,2022,DATE
+4,2030,DATE
+5,June 2024,DATE
+5,February 2025,DATE
+6,October 2023,DATE
+6,January 2026,DATE
+7,September 2023,DATE
+8,2022,DATE
+9,October 2023,DATE
+10,November 2023,DATE
+11,2023,DATE
+11,1850-1900,DATE
+11,July 2023,DATE
+12,January 2024,DATE
+12,2010,DATE
+13,September 2023,DATE
+14,March 2024,DATE
+15,1950,DATE
+16,May 2024,DATE
+16,1958,DATE
+17,2000-2009,DATE
+17,2010-2019,DATE
+18,2023,DATE
+18,1993,DATE
+19,2022,DATE
+20,September 2023,DATE
+21,September 2023,DATE
+22,1800,DATE
+23,1960,DATE
+25,2023,DATE
+26,September 2023,DATE
+28,2000,DATE
+28,March 2024,DATE
+29,2023,DATE
+29,August,DATE
+29,1970,DATE
+29,2018-2022,DATE
+30,1961,DATE
+31,"October 25, 2023",DATE
+32,2023,DATE
+33,1990,DATE
+33,October 2023,DATE
+34,1970,DATE
+35,2013,DATE
+36,January 2024,DATE
+36,2030,DATE
+36,2023,DATE
+37,2025,DATE
+38,2023,DATE
+38,2030,DATE
+38,2021,DATE
+39,2019,DATE
+40,2020,DATE
+41,1972,DATE
+42,2024,DATE
+43,2021,DATE
+43,2030,DATE
+44,2025,DATE
+45,2023,DATE
+45,2050,DATE
+45,2025,DATE
+46,2030,DATE
+46,2024,DATE
+47,2030,DATE
+47,2005,DATE
+47,November 2021,DATE
+47,2070,DATE
+49,August 2023,DATE
+49,2022,DATE
+50,2050,DATE
+50,2021,DATE
+50,2030,DATE
+50,2022,DATE
+51,2030,DATE
+52,January 2019,DATE
+52,2047,DATE
+52,2100,DATE
+53,December 2023,DATE
+54,February 2024,DATE
+54,September,DATE
+54,2050,DATE
+55,2023,DATE
+55,2022,DATE
+56,2023,DATE
+56,March 2024,DATE
+57,February 2024,DATE
+57,1981-2010,DATE
+58,2023 summer,DATE
+58,July 2023,DATE
+59,August,DATE
+59,September 2022,DATE
+60,2023,DATE
+61,2050,DATE
+62,2020-2023,DATE
+64,2023,DATE
+65,2030,DATE
+66,2007,DATE
+66,2024,DATE
+66,January 2021,DATE
+67,1972,DATE
+68,2023,DATE
+68,2027,DATE
+71,2023,DATE
+71,2100,DATE
+71,2030,DATE
+71,2035,DATE
+71,2019,DATE
+72,2024,DATE
+73,2030,DATE
+74,"September 21, 2023",DATE
+74,1979,DATE
+75,2050,DATE
+76,1970,DATE
+76,1982,DATE
+77,October 2023,DATE
+77,2030,DATE
+78,2017,DATE
+79,2023، محذرة,DATE
+79,2030,DATE
+82,2022,DATE
+83,2030,DATE
+86,2023,DATE
+86,1850-1900,DATE
+87,2006,DATE
+87,2010,DATE
+88,2024,DATE
+89,2024,DATE
+91,2023,DATE
+91,1993,DATE
+92,2023,DATE
+93,2023,DATE
+95,1970,DATE
+97,2023,DATE
+98,1961,DATE
+99,2000,DATE
+99,2024,DATE
+103,2024,DATE
+103,2030,DATE
+104,2021,DATE
+104,2030,DATE
+106,2023,DATE
+106,2050,DATE
+107,2030,DATE
+107,2024،,DATE
+108,2017,DATE
+113,2020,DATE
+114,2027,DATE
+115,2050,DATE
+116,2023,DATE
+116,2024,DATE
+117,2023,DATE
+118,1990,DATE
+119,2023,DATE
+120,2023,DATE
+122,2030,DATE
+123,2023,DATE
+123,2030,DATE
+124,July 2023,DATE
+124,2050,DATE
+124,2030,DATE
+124,2040,DATE
+124,2008,DATE
+126,2023,DATE
+127,2023-2040,DATE
+128,2030,DATE
+129,1960,DATE
+129,1900,DATE
+129,2050,DATE
+130,2019-2030,DATE
+131,2006,DATE
+131,1980,DATE
+131,2100,DATE
+132,2023,DATE
+132,2030,DATE
+133,1990,DATE
+134,2025,DATE
+134,2024,DATE
+140,2030,DATE
+142,2030,DATE
+143,December 2023,DATE
+143,2025,DATE
+145,2050,DATE
+146,2028,DATE
+147,2023,DATE
+147,1900,DATE
+148,2026,DATE
+149,2010,DATE
+149,2023,DATE
+150,2050,DATE
+151,March 2024,DATE
+153,2018,DATE
+156,2030,DATE
+157,1970,DATE
+158,March 2024,DATE
+159,2025,DATE
+160,2024,DATE
+161,2022,DATE
+161,2021,DATE
+162,1920,DATE
+164,2023,DATE
+167,2024 heatwave season,DATE
+168,2050,DATE
+170,2100,DATE
+173,2023,DATE
+173,2010,DATE
+177,2030,DATE
+177,June 2024,DATE
+178,2014-2023,DATE
+179,2063,DATE
+179,2018,DATE
+182,2009,DATE
+182,2040,DATE
+183,2050,DATE
+185,2030,DATE
+187,2024,DATE
+187,2030,DATE
+190,2020,DATE
+190,2030,DATE
+190,2050,DATE
+192,2024,DATE
+194,2070,DATE
+196,2026,DATE
+199,2023,DATE
+200,2023,DATE
+200,2021-2022,DATE
+200,2030,DATE

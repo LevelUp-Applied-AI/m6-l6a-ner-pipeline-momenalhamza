@@ -3,3 +3,9 @@ transformers>=4.30
 pandas
 numpy
 pytest
+torch
+matplotlib
+seaborn
+scikit-learn
+arabic-reshaper
+python-bidi

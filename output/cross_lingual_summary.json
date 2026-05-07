@@ -1,0 +1,14 @@
+{
+  "model": "bert-base-multilingual-cased",
+  "n_pairs": 10,
+  "within_en_mean": 0.71639084815979,
+  "within_ar_mean": 0.7965888381004333,
+  "cross_mean": 0.5995223522186279,
+  "same_topic_cross_mean": 0.6915290951728821,
+  "diff_topic_cross_mean": 0.5892993211746216,
+  "lift_same_vs_diff_topic_cross": 0.1022297739982605,
+  "en_to_ar_top1_acc": 0.9,
+  "ar_to_en_top1_acc": 0.6,
+  "mean_rank_en_to_ar": 1.1,
+  "mean_rank_ar_to_en": 1.5
+}
